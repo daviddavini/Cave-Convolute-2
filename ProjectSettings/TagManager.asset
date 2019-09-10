@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - World Generator
+  - Game Manager
+  - Event Manager
+  - Monster
+  - Camera Target
+  - Chunk Manager
+  - Chunk Loader
+  - Move Joystick
+  - Carry Button
+  - Inventory
+  - Store Button
+  - Chunk
+  - Cluster Manager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Floor
+    uniqueID: 759103987
+    locked: 0
+  - name: Shadow
+    uniqueID: 3814962579
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Air
+    uniqueID: 2767591359
+    locked: 0
+  - name: UI
+    uniqueID: 1569452341
+    locked: 0

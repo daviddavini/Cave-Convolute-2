@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3586266041851449174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7346728729034122196}
+  - component: {fileID: 65207760520233510}
+  - component: {fileID: 7503303907172118195}
+  m_Layer: 0
+  m_Name: Item Scenery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7346728729034122196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3586266041851449174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &65207760520233510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3586266041851449174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45848e6da247c41738b1a2f486f3d829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneryPrefabs:
+  - prefab: {fileID: 218741336061183959, guid: 3227d5dd2ea9f4adcbb50b569af1850a, type: 3}
+    weight: 1
+  absentProbability: 0
+  maxOffset: 0
+  edgeBuffer: 0
+  sceneryCountRange: {x: 1, y: 2}
+  sceneryDensity: 0.01
+  sceneryCountByDensity: 1
+  sceneryProbability: 0.33
+  sceneryCountByProbability: 0
+--- !u!114 &7503303907172118195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3586266041851449174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45848e6da247c41738b1a2f486f3d829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneryPrefabs:
+  - prefab: {fileID: 5265972236392490802, guid: 90011324f324b487393a243062c07611,
+      type: 3}
+    weight: 1
+  absentProbability: 0
+  maxOffset: 0
+  edgeBuffer: 0
+  sceneryCountRange: {x: 1, y: 2}
+  sceneryDensity: 0.03
+  sceneryCountByDensity: 0
+  sceneryProbability: 0.33
+  sceneryCountByProbability: 1
